@@ -47,7 +47,7 @@ Metta recipes. Both recipes use the same 100-value player-view encoding, six inp
 
 ```bash
 export JUMPER_ROOT=/absolute/path/to/coworld-jumper
-cd /absolute/path/to/metta
+cd /absolute/path/to/softmax
 uv run ./tools/run.py recipes.external.coworld.train --dry-run \
   command="[\"$JUMPER_ROOT/out/jumper-training-bridge\",\"$JUMPER_ROOT\"]" \
   assets="[\"$JUMPER_ROOT/nimby.lock\",\"$JUMPER_ROOT/data/forest.tmx\",\"$JUMPER_ROOT/data/forest.tiled-project\",\"$JUMPER_ROOT/data/forest.tiled-session\",\"$JUMPER_ROOT/data/spritesheet.aseprite\"]" \
